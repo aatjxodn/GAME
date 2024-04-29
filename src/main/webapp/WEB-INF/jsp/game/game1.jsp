@@ -9,7 +9,7 @@
 <link type="text/css" href="<c:url value='/css/common.css'/>" rel="stylesheet" />
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 <script type="text/javascript" src="<c:url value='/js/common.js'/>"></script>
-<script type="text/javascript" src="<c:url value='/js/game.js'/>"></script>
+<script type="text/javascript" src="<c:url value='/js/game1.js'/>"></script>
 
 </head>
 

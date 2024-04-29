@@ -844,7 +844,7 @@
 	margin-bottom: 50px;
 }
 
-/* ================================================ game ================================================ */
+/* ================================================ game1 ================================================ */
 
 #resultModal {
     display: none;
@@ -958,6 +958,174 @@
   transition: all 0.2s;
 }
 
+/* ================================================ game2 ================================================ */
+
+#resultModal {
+    display: none;
+    width: 300px;
+    padding: 20px 60px;
+    background-color: #fefefe;
+    border: 1px solid #888;
+    border-radius: 3px;
+}
+
+#resultModal .modal_close_btn {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#game2Form {
+	width: 100%;
+	height: 900px;
+}
+
+.game2Form_con {
+	width: 1200px;
+	margin: auto;
+	text-align: center;
+	height: 800px;
+}
+
+#left_image2 {
+	width: 200px;
+	margin-top: 30px;
+}
+
+.game2Form_left {
+	margin: auto;
+	float: left;
+	width: 60%;
+	margin-top: 20px;
+	height: 800px;
+	border-radius: 10px;
+	border: 1px solid #32CD32;
+	background-color: #32CD32;
+}
+
+.game2Form_right {
+	margin: auto;
+	float: right;
+	width: 39%;
+	margin-top: 20px;
+	height: 800px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+}
+
+#countdown {
+  font-size: 32px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#choiceHol {
+  padding: 80px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #1E90FF;
+  font-size: 36px;
+  border: 3px solid #1E90FF;
+}
+
+#choiceJjak {
+  padding: 80px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #DC143C;
+  font-size: 36px;
+  border: none;
+  border: 3px solid #DC143C;
+}
+
+.bat_con {
+	margin-top: 30px;
+}
+
+.pointArea {
+	border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+	width: 400px;
+	margin: auto;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+#battingText {
+    border: 1px solid #000;
+	background-color: #000;
+	color: #fff;
+	width: 400px;
+	margin: auto;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 16px;
+}
+
+#battingBut {
+  width: 400px;
+  cursor: pointer;
+  border: 3px solid #000;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 10px;
+  height: 60px;
+  transition: all 0.2s;
+}
+
+#messageInput {
+	padding: 20px 100px 20px 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+#sendMessageButton {
+	padding: 20px 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+	transition: all 0.5s ease;
+}
+#sendMessageButton:hover {
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+.sendMessage {
+    background-color: #DCF8C6;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+    clear: both;
+}
+
+.receivedMessage {
+    background-color: #E6E6E6;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+    clear: both;
+}
+
+#chatArea {
+    height: 700px; /* 채팅 영역의 높이를 지정합니다. */
+    overflow-y: auto; /* 채팅 영역이 넘칠 경우 스크롤이 생성되도록 설정합니다. */
+}
 
 /* ================================================ footer ================================================ */
 
